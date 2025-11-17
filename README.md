@@ -107,6 +107,7 @@ GND is the ground pin.
 
 
 ## STM 32 CUBE PROGRAM :
+~~~
 #include "main.h"
 #include "stdio.h"
 
@@ -146,9 +147,10 @@ PUTCHAR_PROTOTYPE
 	HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xFFFF);
 return ch;
 }
-
+~~~
 
 ## Output screen shots on serial monitor   :
+ 
  
  <img width="783" height="805" alt="image" src="https://github.com/user-attachments/assets/e2005dbe-f8e8-4508-a6a1-97cbea0d186f" />
 ## serial monitor 
